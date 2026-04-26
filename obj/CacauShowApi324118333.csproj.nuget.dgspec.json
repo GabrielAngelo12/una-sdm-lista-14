@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\CacauShowApi324118333\\CacauShowApi324118333.csproj": {}
+    "C:\\Users\\Gabriel Ângelo\\.vscode\\una-sdm-lista-14\\CacauShowApi324118333.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\CacauShowApi324118333\\CacauShowApi324118333.csproj": {
+    "C:\\Users\\Gabriel Ângelo\\.vscode\\una-sdm-lista-14\\CacauShowApi324118333.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\CacauShowApi324118333\\CacauShowApi324118333.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Ângelo\\.vscode\\una-sdm-lista-14\\CacauShowApi324118333.csproj",
         "projectName": "CacauShowApi324118333",
-        "projectPath": "C:\\Users\\aluno\\Documents\\CacauShowApi324118333\\CacauShowApi324118333.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\CacauShowApi324118333\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel Ângelo\\.vscode\\una-sdm-lista-14\\CacauShowApi324118333.csproj",
+        "packagesPath": "C:\\Users\\Gabriel Ângelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel Ângelo\\.vscode\\una-sdm-lista-14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gabriel Ângelo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -48,9 +48,15 @@
               "target": "Package",
               "version": "[10.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.6, )"
+              "version": "[10.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -76,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.106/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.107/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

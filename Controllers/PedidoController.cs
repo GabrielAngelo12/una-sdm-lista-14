@@ -24,7 +24,7 @@ namespace CacauShowApi324118333.Controllers
             var somaPedidos = _context.Pedidos.Where(u => u.UnidadeId == u.UnidadeId).Sum(p => p.Quantidade);
             var valorTotal = 0m;
 
-            if(!_context.Franquias.Any(p => p.CapacidadeEstoque <= somaPedidos ))
+            if(_context.Franquias.Any(p => p.CapacidadeEstoque <= somaPedidos ))
                 return BadRequest("Capacidade logística da loja excedida.Não é possível receber mais produtos");
 
             if(_context.Produtos.Any(t => t.Tipo == "Sazonal")){
